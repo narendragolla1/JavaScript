@@ -60,7 +60,12 @@ Data types
     console.log(1+undefined); o/p: NaN(undefined is nan and it is not object, undefined is not converted into zero)
 
 
-    NaN:
+    var l=+"abc"; // l become NaN
+    console.log(l==l);
+    o/p: fasle (nan==nan return false)
+    NaN != NaN (only nan is not equal to nan because nan can any number)
+    console.log(isNaN(l)); o/p: true
+       
     
     
 
