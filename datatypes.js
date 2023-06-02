@@ -38,7 +38,7 @@ Eg: var a=5;
 
                 ** everything in Js is object **
 
-                
+
     console.log(2=="2")
 
     o/p: true : Js will convert string "2" to 2 implicity (type coercion) only values are compared not the types : 2==2 ( converted )
@@ -78,7 +78,8 @@ Eg: var a=5;
     console.log(1+null); o/p: 1 (null is converted into 0 and added to 1)
     console.log("1"+null); o/p: 1null (null is converted into string type and concat with 1)
 
-
+    console.log(false=="0"); o/p: true (false means 0 and value are compared)
+    
        
     
     
