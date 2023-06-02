@@ -1,6 +1,7 @@
 /*
 JAVASCRIPT
 ----------
+
 -> javascript is client side programming language.
 ->fucntional programming language and lambda langauge
 ->loosely and dynamically typed: 
@@ -11,31 +12,33 @@ Eg: var a=5;
     the datatype to string.
      
 
-Data types
-----------
-    1. Number
-    2. string
-    3. Boolean
-    4 Undefined
-    5.Null
+    Data types
+    ----------
+        1. Number
+        2. string
+        3. Boolean
+        4 Undefined
+        5.Null
 
 
-    Eg: var a=10;
-    var b="hello";
-    var c=true;
+            Eg: var a=10;
+            var b="hello";
+            var c=true;
 
-    Null in js means there is no value.
-    we have to assign NUll value to it::: var null_vari=null;
-    Undefined in js means we didn't define value.
+            Null in js means there is no value.
+            we have to assign NUll value to it::: var null_vari=null;
+            Undefined in js means we didn't define value.
 
 
-    To know the type of the variable:
-    typeof return in string format
-    console.log(typeof(a)); o/p: number
-    typeof null would be: Object  
-    typeof underdefined would be: undefined
+            To know the type of the variable:
+            typeof return in string format
+            console.log(typeof(a)); o/p: number
+            typeof null would be: Object  
+            typeof underdefined would be: undefined
 
-    ** everything in Js is object **
+                ** everything in Js is object **
+
+                
     console.log(2=="2")
 
     o/p: true : Js will convert string "2" to 2 implicity (type coercion) only values are compared not the types : 2==2 ( converted )
@@ -65,6 +68,17 @@ Data types
     o/p: fasle (nan==nan return false)
     NaN != NaN (only nan is not equal to nan because nan can any number)
     console.log(isNaN(l)); o/p: true
+    console.log(-2+-3) ; o/p: -5
+    console.log(1+true); o/p: true (true is converted into to 1 and added to 1)
+    console.log("2"-"3"); o/p: -1 
+
+
+    console.log(+"abc"); o/p: NaN (im not able to convert in to number that is why we are getting NaN)
+
+    console.log(1+null); o/p: 1 (null is converted into 0 and added to 1)
+    console.log("1"+null); o/p: 1null (null is converted into string type and concat with 1)
+
+
        
     
     
